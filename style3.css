@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background-image:url("/gallery-img-2.jpg") ;
+   
+}
+.about{
+    width: 100%;
+}
+.about .container{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px;
+}

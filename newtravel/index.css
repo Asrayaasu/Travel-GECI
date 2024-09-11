@@ -1,0 +1,192 @@
+
+.header{
+    /* background-color: rgb(3, 22, 75); */
+    background-image: linear-gradient(rgb(3, 22, 75),rgb(0, 0, 0));
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar-nav{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+.logo h1{
+    font-weight: 900;
+    color: white;
+}
+.navbar-expand-lg .navbar-nav{
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 700;
+    color: rgb(240, 217, 8);
+}
+
+/*--------------Header section ends------------------*/
+/*--------------Home-------------------*/
+#home{
+    width: 100%;
+    background-image: url(./images_travel/banner-bg.jpg);
+    background-size: cover;
+    padding: 8%;
+    object-fit: fill;
+    background-position: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#banner{
+    padding: 90px 120px;
+}
+#banner-content h2{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+#banner-content a{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+}
+#banner-content a:hover{
+    color: yellow;
+    
+}
+/*---------------packages----------*/
+#packages{
+    padding: 90px 80px;
+}
+.heading{
+    padding-bottom: 60px;
+}
+.heading h1{
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(3, 22, 75);
+    letter-spacing: 8px;
+}
+.heading h1:hover{
+    letter-spacing: 15px;
+}
+.box{
+    padding: 20px;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+    border-radius: 5%;
+}
+.pack-img{
+    text-align: center;
+    
+}
+.pack-img img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    
+}
+.box .pack-details{
+    display: none;
+    
+}
+.box:hover .pack-details{
+    display: block;
+    text-align: center;
+}
+/*--------------services------------*/
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+/*----------------Footer starts-----------------------*/
+.footer-section {
+    width: 100%;
+    float: left;
+    background-color: rgb(3, 22, 75);
+    height: auto;
+    padding: 40px 30px;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    border-top-left-radius: 30%;
+   
+}
+.footer-text {
+    width: 100%;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.footer_menu {
+    width: 100%;
+    float: left;
+}
+
+.footer_menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer_menu li {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer_menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer_menu li a:hover {
+    color: rgb(240, 217, 8);
+}
+
+.rand-text {
+    float: left;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.location_text {
+    width: 100%;
+    float: left;
+}
+
+.location_text ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.location_text li {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 0px 0px 5px 0px;
+}
+
+.location_text li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.location_text li a:hover {
+    color: rgb(240, 217, 8);
+}
